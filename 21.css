@@ -1,0 +1,58 @@
+body{
+    font-family: 'Wellfleet', serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(red,yellow);
+    height: 100vh;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: auto;   
+    width: 30%; 
+    border-radius: 5px;
+}
+header{
+    display: flex;
+    gap: 1rem;
+}
+header h1{
+    color: rgb(23, 233, 146);
+    font-size: 6rem;
+    margin: 0px;
+    
+}
+header h1 span{
+    color: cyan;
+}
+#cont image{
+    width: 70px;
+    height: 70px;
+}
+main h2{
+    text-align: center;
+}
+main h4{
+    text-align: center;
+}
+main #but{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+main #but button{
+    width: 30%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: yellowgreen;
+    color: black ;
+}
+main #but #new{
+    background-color: chartreuse;
+}
+main p{
+    font-size: 1.5rem;
+    background-color: darkviolet;
+}
