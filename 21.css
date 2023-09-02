@@ -56,3 +56,11 @@ main p{
     font-size: 1.5rem;
     background-color: darkviolet;
 }
+
+@media (max-width:600px) 
+{
+    #cont{
+        width: 80%s;
+    }
+    
+}
